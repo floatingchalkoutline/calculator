@@ -17,7 +17,7 @@ while is_on:
         operand_two = int(input("What's the second number?: "))
     answer = calculator.calculate(operand_one, operand_two, operation)
     print(answer)
-    keep_calculating = input(f"Continue calculating with {answer}? Type 'y' or 'n'")
+    keep_calculating = input(f"Continue calculating with {answer}? Type 'y' or 'n': ")
     if keep_calculating == "y":
         if answer == None:
             operand_one = 0
